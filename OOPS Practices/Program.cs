@@ -1,5 +1,6 @@
-﻿
+﻿using OOPS_Practices.Inheritance;
 using OOPS_Practices.ClassandObject;
+using OOPS_Practices.Polymorphism;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,17 @@ namespace OOPS_Practices
 
             Phone phone = new Phone("Samsung", "White");
             phone.PhoneDetails();
+
+            Bike bike = new Bike();
+            bike.method();
+            bike.Run();
+            Console.WriteLine("\n");
+
+            door Door = new door();
+            Door.name();
+            
+            keys Keys = new keys();
+            Keys.name();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace OOPS_Practices.ClassandObject
 
         public void PhoneDetails()
         {
-            Console.WriteLine($"Car name is : {name}\nColor name is : {color}\n");
+            Console.WriteLine($"Phone name is : {name}\nColor name is : {color}\n");
 
         }
     }

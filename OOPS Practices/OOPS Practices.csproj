@@ -46,11 +46,16 @@
     <Compile Include="ClassandObject\Cars.cs" />
     <Compile Include="ClassandObject\Fruit.cs" />
     <Compile Include="ClassandObject\Phone.cs" />
+    <Compile Include="Inheritance\Bike.cs" />
+    <Compile Include="Inheritance\Vehicle.cs" />
+    <Compile Include="Polymorphism\door.cs" />
+    <Compile Include="Polymorphism\keys.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
