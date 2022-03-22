@@ -18,7 +18,7 @@ namespace OOPS_Practices.ClassandObject
 
         public void FruitDetails()
         {
-            Console.WriteLine($"Car name is : {name}\nColor name is : {color}\n");
+            Console.WriteLine($"Fruit name is : {name}\nColor name is : {color}\n");
 
         }
     }
